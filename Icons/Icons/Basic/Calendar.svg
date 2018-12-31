@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,4 C4,3.448 4.448,3 5,3 C5.552,3 6,3.448 6,4 L6,5 L16,5 L16,4 C16,3.448 16.448,3 17,3 C17.552,3 18,3.448 18,4 L18,5 C19.105,5 20,5.895 20,7 L20,18 C20,19.105 19.105,20 18,20 L4,20 C2.895,20 2,19.105 2,18 L2,7 C2,5.895 2.895,5 4,5 L4,4 Z M4,10 L4,17 C4,17.552 4.448,18 5,18 L17,18 C17.552,18 18,17.552 18,17 L18,10 C18,9.448 17.552,9 17,9 L5,9 C4.448,9 4,9.448 4,10 Z M15,14 C15.552,14 16,14.448 16,15 C16,15.552 15.552,16 15,16 C14.448,16 14,15.552 14,15 C14,14.448 14.448,14 15,14 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

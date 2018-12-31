@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Media / TV</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,6 C2,4.8954 2.895,4 4,4 L18,4 C19.105,4 20,4.8954 20,6 L20,14 C20,15.1046 19.105,16 18,16 L12,16 L12,17 L14,17 C14.552,17 15,17.4477 15,18 C15,18.5523 14.552,19 14,19 L8,19 C7.448,19 7,18.5523 7,18 C7,17.4477 7.448,17 8,17 L10,17 L10,16 L4,16 C2.895,16 2,15.1046 2,14 L2,6 Z M18,6.5 C18,6.2239 17.776,6 17.5,6 L4.5,6 C4.224,6 4,6.2239 4,6.5 L4,13.5 C4,13.7761 4.224,14 4.5,14 L17.5,14 C17.776,14 18,13.7761 18,13.5 L18,6.5 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Media-/-TV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

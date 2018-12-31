@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-container{
+    /*position: fixed;*/
+}
+
+.top-bar{
+    /*position: fixed;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+}
+
+.top-bar-right-hand-side{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.darkmatter img{
+    width: 130px;
+    height: 24px;
+}
+
+.darkmatter{
+    background-size: cover;
+    margin-left: 24px;
+}
+
+.button-bell{
+    padding: 0;
+    background: transparent;
+    border: none;
+    margin-right: 28px;
+}
+
+.bell{
+    width: 26px;
+    height: 26px;
+}
+
+.menu{
+    width: 16px;
+    height: 15.2px
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Download</title>
+    <desc>Created with Sketch.</desc>
+    <g id="-Icons-/-Basic-/-Download" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10.538,3 C11.09,3 11.538,3.448 11.538,4 L11.538,12.254 L14.169,9.751 C14.605,9.336 15.312,9.336 15.748,9.751 C16.184,10.166 16.184,10.838 15.748,11.253 L10.537,16 L5.327,11.253 C4.891,10.838 4.891,10.166 5.327,9.751 C5.763,9.336 6.47,9.336 6.906,9.751 L9.538,12.254 L9.538,4 C9.538,3.448 9.985,3 10.538,3 Z M6.1,17 L14.9,17 C15.5083,17 16,17.4477 16,18 C16,18.5523 15.5083,19 14.9,19 L6.1,19 C5.4928,19 5,18.5523 5,18 C5,17.4477 5.4928,17 6.1,17 Z" id="Icon" fill="#475F7B"></path>
+    </g>
+</svg>

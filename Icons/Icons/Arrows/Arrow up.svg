@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Arrows / Arrow up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.0500002,7 L5.71087502,12.0964377 C5.33611529,12.4541629 5.32230607,13.0479592 5.68003127,13.422719 C5.69007207,13.4332379 5.7003561,13.4435219 5.71087502,13.4535627 L5.73202684,13.4737531 C6.11814607,13.8423214 6.72566952,13.8426523 7.11218999,13.4745048 L11.0500002,9.72387509 L14.9878104,13.4745048 C15.3743309,13.8426523 15.9818543,13.8423214 16.3679735,13.4737531 L16.3891254,13.4535627 C16.7638851,13.0958375 16.7776943,12.5020411 16.4199691,12.1272814 C16.4099283,12.1167625 16.3996443,12.1064785 16.3891254,12.0964377 L11.0500002,7 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Arrows-/-Arrow-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

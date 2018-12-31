@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Folder</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,6 L4,17 L18,17 L18,8 L12.4142136,8 C11.6185641,8 10.8555024,7.68392948 10.2928932,7.12132034 L9.17157287,6 L4,6 Z M12.4142136,6 L18,6 C19.1045695,6 20,6.8954305 20,8 L20,17 C20,18.1045695 19.1045695,19 18,19 L4,19 C2.8954305,19 2,18.1045695 2,17 L2,6 C2,4.8954305 2.8954305,4 4,4 L9.58578644,4 C9.85100293,4 10.1053568,4.10535684 10.2928932,4.29289322 L11.7071068,5.70710678 C11.8946432,5.89464316 12.1489971,6 12.4142136,6 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Folder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

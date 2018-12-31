@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Pen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.6411,9.08625 C18.017,9.47725 18.0121,10.10025 17.6265,10.48525 L9.6523,18.39125 L4.6915,18.39125 C4.4228,18.40725 4.0697,18.02925 4.0553,17.77025 L4,12.84425 L11.9697,4.82825 C12.3602,4.43825 12.9934,4.43825 13.3839,4.82825 L13.3986,4.84325 L13.9488,4.29325 C14.3394,3.90225 14.9725,3.90225 15.3631,4.29325 L18.1915,7.12125 C18.582,7.51225 18.582,8.14525 18.1915,8.53625 L17.6411,9.08625 Z M6.3128,13.31425 L9.1412,16.14225 L15.5052,9.77825 L12.6768,6.95025 L6.3128,13.31425 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Pen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

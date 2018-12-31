@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Print</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7,3 C6.448,3 6,3.448 6,4 L6,6 L4,6 C2.895,6 2,6.895 2,8 L2,14 C2,15.105 2.895,16 4,16 L4,18 C4,18.552 4.448,19 5,19 L17,19 C17.552,19 18,18.552 18,18 L18,16 C19.105,16 20,15.105 20,14 L20,8 C20,6.895 19.105,6 18,6 L16,6 L16,4 C16,3.448 15.552,3 15,3 L7,3 Z M15.286,17 L6.714,17 C6.32,17 6,16.756 6,16.454 L6,11.545 C6,11.244 6.32,11 6.714,11 L15.286,11 C15.68,11 16,11.244 16,11.545 L16,16.454 C16,16.756 15.68,17 15.286,17 Z M4.5,8 C4.224,8 4,8.224 4,8.5 C4,8.776 4.224,9 4.5,9 C4.776,9 5,8.776 5,8.5 C5,8.224 4.776,8 4.5,8 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Print" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Print" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

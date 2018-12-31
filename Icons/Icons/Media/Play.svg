@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Media / Play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.6913212,6.41187193 C11.0862827,5.86270887 11.9137554,5.86270985 12.3087069,6.41187193 L18.8159283,15.4597979 C19.2808162,16.1061362 18.8115678,17 18.0072553,17 L4.9927629,17 C4.18848009,17 3.71917522,16.1061362 4.18406014,15.4597979 L10.6913212,6.41187193 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Media-/-Play" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#475F7B" transform="translate(11.500000, 11.500000) rotate(90.000003) translate(-11.500000, -11.500000) " xlink:href="#path-1"></use>
+    </g>
+</svg>

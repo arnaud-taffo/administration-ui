@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Rich Text / Caps</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17,11.6 L17,18 L15,18 L15,11.6 L13,11.6 L13,10 L19,10 L19,11.6 L17,11.6 Z M9,5.79999995 L9,18 L7,18 L7,5.79999995 L3,5.79999995 L3,4 L13,4 L13,5.79999995 L9,5.79999995 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Rich-Text-/-Caps" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#B5C0CD" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Media / Separate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,20 L10,2 L12,2 L12,20 L10,20 Z M8,4 L8,6 L4,6 L4,16 L8,16 L8,18 L4,18 C2.895,18 2,17.1046 2,16 L2,6 C2,4.8954 2.895,4 4,4 L8,4 Z M14,18 L14,16 L16,16 L16,18 L14,18 Z M18,18 L18,16 L20,16 C20,17.1046 19.105,18 18,18 Z M18,14 L18,12 L20,12 L20,14 L18,14 Z M18,10 L18,8 L20,8 L20,10 L18,10 Z M18,4 C19.105,4 20,4.8954 20,6 L18,6 L18,4 Z M14,6 L14,4 L16,4 L16,6 L14,6 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Media-/-Separate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13,13 L13,17 C13,17.5522847 12.5522847,18 12,18 L11,18 C10.4477153,18 10,17.5522847 10,17 L10,13 L6,13 C5.44771525,13 5,12.5522847 5,12 L5,11 C5,10.4477153 5.44771525,10 6,10 L10,10 L10,6 C10,5.44771525 10.4477153,5 11,5 L12,5 C12.5522847,5 13,5.44771525 13,6 L13,10 L17,10 C17.5522847,10 18,10.4477153 18,11 L18,12 C18,12.5522847 17.5522847,13 17,13 L13,13 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Plus" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

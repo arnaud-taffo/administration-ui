@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,5 L15,6.674 C17.365,7.797 19,10.208 19,13 C19,16.866 15.866,20 12,20 L10,20 C6.134,20 3,16.866 3,13 C3,10.208 4.635,7.797 7,6.674 L7,5 C7,3.343 8.343,2 10,2 L12,2 C13.657,2 15,3.343 15,5 Z M10,4 L12,4 C12.552,4 13,4.448 13,5 L13,6.071 C12.673,6.024 12.34,6 12,6 L10,6 C9.66,6 9.327,6.024 9,6.071 L9,5 C9,4.448 9.448,4 10,4 Z M12,8 C14.761,8 17,10.239 17,13 C17,15.761 14.761,18 12,18 L10,18 C7.239,18 5,15.761 5,13 C5,10.239 7.239,8 10,8 L12,8 Z M13,12 C13,10.895 12.105,10 11,10 C9.895,10 9,10.895 9,12 C9,12.74 9.402,13.387 10,13.732 L10,15 C10,15.552 10.448,16 11,16 C11.552,16 12,15.552 12,15 L12,13.732 C12.598,13.387 13,12.74 13,12 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Lock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

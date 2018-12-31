@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Media / Play Next</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.0343864,11.7405219 C14.5508961,11.3713677 14.5508961,10.62872 14.0343864,10.2595012 L5.53596967,4.18441664 C4.90158977,3.73090375 4,4.16559517 4,4.92492604 L4,17.075134 C4,17.8344187 4.90158977,18.269087 5.53596967,17.8155843 L14.0343864,11.7405219 Z M18,4.99406859 C18,4.48414761 17.569463,4.07081319 17.038336,4.07081319 C16.5073052,4.07081319 16.0766721,4.48414761 16.0766721,4.99406859 L16.0766721,16.9963803 C16.0766721,17.5062016 16.5073052,17.9196351 17.038336,17.9196351 C17.569463,17.9196351 18,17.5062016 18,16.9963803 L18,4.99406859 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Media-/-Play-Next" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

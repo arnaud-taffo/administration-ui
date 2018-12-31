@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Media / Playlist</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3,4 C2.447708,4 2,4.447693 2,5 C2,5.55231 2.447708,6 3,6 L11,6 C11.55229,6 12,5.55231 12,5 C12,4.447693 11.55229,4 11,4 L3,4 Z M13.7143,4 L19.4049,5.40833 C19.7546,5.49481 20,5.80591 20,6.16284 L20,7.67053 C20,8.17645 19.5196,8.54779 19.0237,8.42505 L15.2857,7.5 L15.2857,14.8889 C15.2857,16.6071 13.8786,18 12.1429,18 C10.40709,18 9,16.6071 9,14.8889 C9,13.17072 10.40709,11.77777 12.1429,11.77777 C12.7153,11.77777 13.252,11.92932 13.7143,12.19403 L13.7143,4 Z M2,8 C2,7.44769 2.447708,7 3,7 L11,7 C11.55229,7 12,7.44769 12,8 C12,8.55231 11.55229,9 11,9 L3,9 C2.447708,9 2,8.55231 2,8 Z M3,10 C2.447708,10 2,10.44769 2,11 C2,11.55231 2.447708,12 3,12 L8,12 C8.55229,12 9,11.55231 9,11 C9,10.44769 8.55229,10 8,10 L3,10 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Media-/-Playlist" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

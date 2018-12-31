@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Reply</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.01533051,5.00882108 C4.01533051,4.45164214 3.56420885,4 3.00766525,4 C2.45112468,4 2,4.45164214 2,5.00882108 L2,11.0617476 C2,13.559175 4.0222834,15.5837881 6.51683935,15.5837881 L13.3474192,15.5837881 L13.3474192,18.2925736 C13.3474192,18.8643734 13.9907127,19.1991002 14.4581686,18.8705272 L19.7000432,15.1852029 C20.0999856,14.9040444 20.0999856,14.310555 19.7000432,14.0293461 L14.4581686,10.344042 C13.9907127,10.0154891 13.3474192,10.3502059 13.3474192,10.9219754 L13.3474192,13.5661257 L6.51683935,13.5661257 C5.13530005,13.5661257 4.01533051,12.4448716 4.01533051,11.0617476 L4.01533051,5.00882108 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Reply" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Reply" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

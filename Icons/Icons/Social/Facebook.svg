@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Social / Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.8422523,20 L12.8422523,12.2460697 L15.4946933,12.2460697 L15.8926377,9.22332876 L12.8422523,9.22332876 L12.8422523,7.29374948 C12.8422523,6.41886953 13.0889286,5.82264937 14.3694559,5.82264937 L16,5.82199189 L16,3.11834548 C15.7180203,3.08240352 14.7500838,3 13.6235058,3 C11.2710312,3 9.66048486,4.40842084 9.66048486,6.99437923 L9.66048486,9.22332876 L7,9.22332876 L7,12.2460697 L9.66048486,12.2460697 L9.66048486,20 L12.8422523,20 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Social-/-Facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="f_1_" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Icons + Notification</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,16 C4,16.5523 4.4477,17 5,17 L9,17 C9,18.1046 9.8954,19 11,19 C12.1046,19 13,18.1046 13,17 L17,17 C17.5523,17 18,16.5523 18,16 C18,15.4477 17.5523,15 17,15 L17,10 C17,7.027 14.8377,4.559 12,4.0829 L12,4 C12,3.4477 11.5523,3 11,3 C10.4477,3 10,3.4477 10,4 L10,4.0829 C7.1623,4.559 5,7.027 5,10 L5,15 C4.4477,15 4,15.4477 4,16 Z M11,5.9431 L11.6691,6.0554 C13.5594,6.3725 15,8.02 15,10 L15,15 L7,15 L7,10 C7,8.02 8.4406,6.3725 10.3309,6.0554 L11,5.9431 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Icons-+-Notification" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#475F7B" xlink:href="#path-1"></use>
+        <circle id="Oval" fill="#FF4A7A" cx="16" cy="6" r="3"></circle>
+    </g>
+</svg>

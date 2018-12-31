@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Mic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.99,10 L14,6 C14,4.34 12.66,3 11,3 C9.34,3 8,4.34 8,6 L8,10 C8,11.66 9.34,13 11,13 C12.66,13 13.99,11.66 13.99,10 Z M11,15.1 C8.24,15.1 5.7,13 5.7,10 L4,10 C4,13.41 6.72,16.23 10,16.72 L10,19 C10,19.5522847 10.4477153,20 11,20 L11,20 C11.5522847,20 12,19.5522847 12,19 L12,16.72 C15.28,16.24 18,13.42 18,10 L16.3,10 C16.3,13 13.76,15.1 11,15.1 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Mic" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

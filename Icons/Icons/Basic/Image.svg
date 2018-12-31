@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Basic / Image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,6.5 C18,6.2239 17.776,6 17.5,6 L4.5,6 C4.224,6 4,6.2239 4,6.5 L4,15.5 C4,15.7761 4.224,16 4.5,16 L17.5,16 C17.776,16 18,15.7761 18,15.5 L18,6.5 Z M4,4 L18,4 C19.105,4 20,4.8954 20,6 L20,16 C20,17.1046 19.105,18 18,18 L4,18 C2.895,18 2,17.1046 2,16 L2,6 C2,4.8954 2.895,4 4,4 Z M14.5,11 C15.328,11 16,10.3284 16,9.5 C16,8.6716 15.328,8 14.5,8 C13.672,8 13,8.6716 13,9.5 C13,10.3284 13.672,11 14.5,11 Z M6.79,10.5529035 L5,14.1336035 L5,15 L17,15 L15.401,13.1347035 C15.157,12.8293035 14.757,12.6944035 14.377,12.7892035 L11,13.6336035 L8.474,10.3861035 C8.022,9.80540346 7.119,9.89480346 6.79,10.5529035 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Basic-/-Image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="#475F7B" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title> Icons / Rich Text / Underline</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.6,15.2 C8.89275,15.2 6.7,13.0520024 6.7,10.4000054 L6.7,4 L8.74165391,4 L8.74165391,10.4000054 C8.74165391,11.9480036 10.01975,13.2000147 11.6,13.2000147 C13.18025,13.2000147 14.4583461,11.9480036 14.4583461,10.4000054 L14.4583461,4 L16.5,4 L16.5,10.4000054 C16.5,13.0520024 14.30725,15.2 11.6,15.2 Z M6,16.6 L17.2,16.6 L17.2,18 L6,18 L6,16.6 Z" id="path-1"></path>
+    </defs>
+    <g id="-Icons-/-Rich-Text-/-Underline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#B5C0CD" xlink:href="#path-1"></use>
+    </g>
+</svg>
