@@ -1,0 +1,45 @@
+<!DOCTYPE>
+    <html>
+        <head>
+            <title>Tag Component</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="script.js"></script>
+        </head>
+        <body>
+            <h1>Tag Component</h1>
+            <button id="show-all">Show all</button>
+            <button id="hide-all">Hide all</button>
+            <at-tags></at-tags>
+            <pre></pre>
+            <script>
+                const tagComponent = document.querySelector("at-tags");
+                const showAllButton = document.querySelector("#show-all");
+                const hideAllButton = document.querySelector("#hide-all");
+                const preElement = document.querySelector("pre");
+                tagComponent.addEventListener("change", function(event){
+                    showAllButton.textContent = `Show all (${event.target.count})`;
+                    preElement.textContent = JSON.stringify(event.target.value, 2, 2);
+                });
+                tagComponent.addEventListener("click", function(event){                   
+                    showAllButton.textContent = `Show all (${event.target.count})`;
+                    preElement.textContent = JSON.stringify(event.target.value, 2, 2);                    
+                });
+                hideAllButton.addEventListener("click", handleEventClickHide);
+                function handleEventClickHide(event) {
+                    if (event.target && tagComponent.count > 0) {
+                        tagComponent.hideAllTags();
+                    }
+                }
+                showAllButton.addEventListener("click", handleEventClickShow);
+                function handleEventClickShow(event) {
+                    if (event.target) {
+                        tagComponent.showAllTags();
+                    }
+                }
+                    
+            </script>
+        </body>
+    </html>
+    
+    
