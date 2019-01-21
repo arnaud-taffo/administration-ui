@@ -6,57 +6,92 @@ class TagsComponent extends HTMLElement {
         super();
         this.attachShadow({mode: "open"});
         const $$styleElement = document.createElement('style');
-        $$styleElement.textContent = `:host { display: block; }
+        $$styleElement.textContent = `
+        :host { display: block; color: blue; --main-color: #c0c0c0; --main-font-size: 10px; --main-border: 1px solid blue; }
         :host(.red) { background: red; }
-        #tags_area.hide > div.tag { display: none; }
-        .tag { display: flex; align-items: center;
-        border-radius: 5px; border: 1px solid grey;
-        display: table; padding: 2px; }
-        .remove-cross { width: 15px ; height: auto; } `;
+        #tags-area { display: flex; border-radius: 5px; }
+        #tags-area.hide > div.tag { display: none; }
+        #tags-input { background: var(--main-color); font-size: var(--main-font-size); border: var(--main-border); }
+        .tag { display: flex; align-items: center; 
+        border: 1px solid grey; padding: 2px; width: fit-content;
+        background: var(--main-color); font-size: var(--main-font-size); border: var(--main-border); color: red}
+        .remove-cross { width: 15px ; height: auto; }
+        button{ padding: 0; background: transparent; border: none; }
+        span { color: #fff; }
+        .extra { color: inherit; }
+        .rounded { border-radius: inherit; }`;
         this.shadowRoot.appendChild($$styleElement);
-        const input = document.createElement("input");
-        input.id = "tags_input";
-        this.shadowRoot.appendChild(input);
-        const tags_area = document.createElement("div");
-        tags_area.id = "tags_area";
-        this.shadowRoot.appendChild(tags_area);
+        const $$inputField = document.createElement("input");
+        $$inputField.id = "tags-input";
+        this.shadowRoot.appendChild($$inputField);
+        const $$tagAreaElement = document.createElement("div");
+        $$tagAreaElement.id = "tags-area";
+        this.shadowRoot.appendChild($$tagAreaElement);
+        this.bindFunctions();
+        this.initializeTag("toto");
+    }
+    
+    bindFunctions(){
+        this.handleEventChange = this.handleEventChange.bind(this);
+        this.handleEventClickRemove = this.handleEventClickRemove.bind(this);
+    }
+    
+     initializeTag(element){
+        this.addTag(element);
     }
     
     connectedCallback () {
-        const input = this.shadowRoot.querySelector("#tags_input");
-        input.addEventListener("change", this.handleEventChange.bind(this));
+        const $$input = this.shadowRoot.querySelector("#tags-input");
+        $$input.addEventListener("change", this.handleEventChange);
     }
     
+    disconnectedCallback () {
+        console.log("disconnect");
+        const $$input = this.shadowRoot.querySelector("#tags-input");
+        const $$imageListToRemoveEventListener = this.shadowRoot.querySelectorAll(".remove-cross");
+        $$input.removeEventListener("change", this.handleEventChange);
+        $$imageListToRemoveEventListener.forEach((element) => {
+            element.removeEventListener("click", this.handleEventClickRemove);
+        });
+    }
+    
+    /* $$imageListToRemoveEventListener.forEach(this.callback.bind(this));
+
+       callback (element) {
+       element.removeEventListener("click", this.handleEventClickRemove);
+    */
+    
     handleEventChange (event) {
-        var textInputted = event.target.value;
-        console.log(textInputted);
+        const textInputted = event.target.value;
         this.addTag(textInputted);
         event.target.value = "";
         this.dispatchEvent(new Event(event.type, event));
         event.stopPropagation();
     }
-    
-    
+      
     addTag (value) {
-        const div = document.createElement("div");
-        const span = document.createElement("span");
-        const img = document.createElement("img");
-        img.setAttribute("src", "Icons/Icons/Basic/Close.svg");
-        img.classList.add("remove-cross");
-        img.addEventListener("click", this.handleEventClickRemove.bind(this));
-        span.textContent = value;
-        div.appendChild(span);
-        div.appendChild(img);
-        div.classList.add("tag");
-        const tags_area = this.shadowRoot.querySelector("#tags_area");
-        tags_area.appendChild(div);
+        const $$tagContainerElement = document.createElement("div");
+        const $$textWrapper = document.createElement("span");
+        $$textWrapper.classList.add("extra");
+        const $$buttonRemoveElement = document.createElement("button");
+        const $$tagRemoveImage = document.createElement("img");
+        $$tagRemoveImage.setAttribute("src", "Icons/Icons/Basic/Close.svg");
+        $$tagRemoveImage.classList.add("remove-cross");
+        $$tagRemoveImage.addEventListener("click", this.handleEventClickRemove);
+        $$textWrapper.textContent = value;
+        $$buttonRemoveElement.appendChild($$tagRemoveImage);
+        $$tagContainerElement.appendChild($$textWrapper);
+        $$tagContainerElement.appendChild($$buttonRemoveElement);
+        $$tagContainerElement.classList.add("tag", "rounded");
+        const $$tagsArea = this.shadowRoot.querySelector("#tags-area");
+        $$tagsArea.appendChild($$tagContainerElement);
     }
     
     handleEventClickRemove(event) {
-        const parentTag = event.target.parentNode;
+        const parentTag = event.target.parentNode.parentNode;
         if (event.target) {
             this.removeTag(parentTag);
-        }
+         }
     }
 
     removeTag (element) {
@@ -64,13 +99,13 @@ class TagsComponent extends HTMLElement {
     }
     
     removeTagByValue (value) {
-        const tagList = this.shadowRoot.querySelectorAll("#tags_area > div.tag");
+        const tagList = this.shadowRoot.querySelectorAll("#tags-area > div.tag");
         tagList.forEach(function(element){
             if (element.textContent == value){
                 const tagParent = element.parentNode;
-                tagParent.removeChild(element); 
+                tagParent.removeChild(element);
             }
-            });
+        });
         /*const elementContent = Array.from(tagList).map(function(element){
             return element.textContent;
             });
@@ -83,31 +118,31 @@ class TagsComponent extends HTMLElement {
             
     }
 
-    callback(element) {
+    /* TO BE REMOVED --> callback(element) {
         return element;
-    }
+    }*/
     
     hideAllTags () {
-        const tags_area = this.shadowRoot.querySelector("#tags_area");
-        tags_area.classList.add("hide");
+        const $$tagsAreaElementToHide = this.shadowRoot.querySelector("#tags-area");
+        $$tagsAreaElementToHide.classList.add("hide");
         
     }
     
     showAllTags () {
-        const tags_area = this.shadowRoot.querySelector("#tags_area");
-        tags_area.classList.remove("hide");
+        const $$tagsAreaElementToShow = this.shadowRoot.querySelector("#tags-area");
+        $$tagsAreaElementToShow.classList.remove("hide");
     }
     
     get count () {
-        const tagsAreaChildren = this.shadowRoot.querySelectorAll("#tags_area > div.tag");
+        const tagsAreaChildren = this.shadowRoot.querySelectorAll("#tags-area > div.tag");
         return tagsAreaChildren.length;
     }
     
-    get value() {
-        const tagsAreaChildren = this.shadowRoot.querySelectorAll("#tags_area > div.tag");
+    get value () {
+        const tagsAreaChildren = this.shadowRoot.querySelectorAll("#tags-area > div.tag");
         
         const valueList = Array.from(tagsAreaChildren).map(function(element){
-                return element.textContent ;
+                return element.textContent;
             });
         
         return valueList;
