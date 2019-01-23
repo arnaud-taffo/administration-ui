@@ -4,14 +4,50 @@
             <title>Tag Component</title>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
             <script src="scriptTagComponent.js"></script>
         </head>
         <body>
+            <style>
+                at-tags{
+                    font-family: 'Archivo', sans-serif;
+                    font-size: 16px;
+                    color: #304156;
+                }
+                #toto0{
+                    font-size: 24px;
+                    color: green;
+                    --placeholder-color: rgba(0, 128, 0, 0.5);
+                }
+                #toto1{
+                    color: #fff;
+                    --input-bg-color: #000;
+                    --tag-bg-color: #000;
+                    --svg-fill-color: #fff;
+                    --placeholder-color: rgba(255, 255, 255, 0.5);
+                }
+            </style>
             <h1>Tag Component</h1>
             <button id="show-all">Show all</button>
             <button id="hide-all">Hide all</button>
             <at-tags></at-tags>
             <pre></pre>
+            <div style="width: 240px;">
+                <at-tags id="toto0">
+                    <span>Toto</span>
+                    <span>Tata</span>
+                </at-tags>
+            </div>
+            <div style="background: black;">
+                <at-tags id="toto1"></at-tags>
+            </div>
+            <div style="width: 500px;">
+                <at-tags id="toto2"></at-tags>
+            </div>
+            <div style="width: 150px;">
+                <at-tags id="toto3"></at-tags>
+            </div>
+
             <script>
                 const tagComponent = document.querySelector("at-tags");
                 const showAllButton = document.querySelector("#show-all");
@@ -37,7 +73,20 @@
                         tagComponent.showAllTags();
                     }
                 }
-                    
+                
+                // select all at-tag
+                // loop over them and add - tags for each
+                const $$allTagComponent = document.querySelectorAll("at-tags");
+                $$allTagComponent.forEach(function(element){
+                    element.addTag("Mockups");
+                    element.addTag("Lstore");
+                    element.addTag("Design");
+                    element.addTag("Workflow");
+                    element.addTag("Presentation");
+                    element.addTag("Web");                    
+                    element.addTag("UI");
+                    element.addTag("Quality");
+                    });
             </script>
         </body>
     </html>
